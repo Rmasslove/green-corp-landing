@@ -88,6 +88,27 @@
     background-position: center;
     background-size: cover;
   }
+  .animate__animated {
+    animation-duration: 2s;
+  }
+  .about {    
+    animation-name: animate;
+    animation-duration: 2s;        
+  }
+  @keyframes animate {
+    0% {
+      opacity: 20%;
+    }
+    50% {
+      opacity: 50%;
+    }
+    70% {
+      opacity: 70%;      
+    }
+    100% {
+      opacity: 100%;      
+    }
+  }
   .form__container {
     width: 550px;
   }
