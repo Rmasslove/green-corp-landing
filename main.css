@@ -245,6 +245,7 @@
     font-size: 15px;
     margin-left: 5px;
   }  
+/* Мой вариант. 
   .promo__card p::before {
     content: "11";
     font-size: 2px;
@@ -254,7 +255,16 @@
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: text-top;    
-  } 
+  } */
+  .promo__card p::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ec6b29;
+    margin-right: 10px;    
+  }
   .form {
     background-color: #1D263A;
     color: #fff;
