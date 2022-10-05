@@ -87,6 +87,7 @@
     background: url('img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
   }
   .animate__animated {
     animation-duration: 2s;
@@ -442,4 +443,10 @@
       margin-right: 0px;
       margin-bottom: 30px;
     }    
+  }
+  .orb-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
   }
